@@ -1,0 +1,13 @@
+package xuhaomin;
+
+public class compareTO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int a=18;
+       int b=3;
+       int s=a.compareTo(b);
+       System.out.println(s);
+	}
+
+}

@@ -1,0 +1,19 @@
+package xuhaomin;
+
+public class ex2 {
+	public static void print (int n) {
+		for (int i=n;i>0;i--) {
+			for(int j=i;j>0;j--) {
+				System.out.print("#"+" ");
+			}
+		System.out.println("");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=9;
+		print(n);
+
+	}
+
+}
